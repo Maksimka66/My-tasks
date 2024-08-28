@@ -1,20 +1,14 @@
 export default function bubbleSort(arr) {
   for (let i = 0; i < arr.length; i++) {
-    if (typeof arr[i] !== "number") {
-      console.log("Нужен массив чисел!");
-      return;
+    for (let j = 0; j < arr.length - 1 - i; j++) {
+      if (arr[j] > arr[j + 1]) {
+        const elem = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = elem;
+      }
     }
 
-    if (arr[i] <= arr[i + 1]) {
-      arr[i] = arr[i];
-      arr[i + 1] = arr[i + 1];
-    } else {
-      arr[i] = arr[i + 1];
-      arr[i + 1] = arr[i];
-    }
+    console.log(arr);
   }
-
-  console.log(arr);
-
   return arr;
 }
