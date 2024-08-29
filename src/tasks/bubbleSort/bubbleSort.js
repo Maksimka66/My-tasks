@@ -16,9 +16,5 @@ export default function bubbleSort(arr) {
     }
   }
 
-  console.log(arr);
-
-  console.log(newArr);
-
   return newArr;
 }
