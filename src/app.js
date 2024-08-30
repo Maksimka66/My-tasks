@@ -24,3 +24,7 @@ let array = [53, 71, 26, 13, 4, 7];
 array = [22, 75, 58, 22];
 
 isUnique(array);
+
+array = [25, 13, 6, 14, 13, 65, 25, 71];
+
+console.log(isUnique(array));
