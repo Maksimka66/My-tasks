@@ -1,10 +1,6 @@
 export default function bubbleSort(arr) {
-  const newArr = [];
+  const newArr = [...arr];
   let elem;
-
-  for (let i = 0; i < arr.length; i++) {
-    newArr.push(arr[i]);
-  }
 
   for (let i = 0; i < newArr.length; i++) {
     for (let j = 0; j < newArr.length - 1 - i; j++) {
