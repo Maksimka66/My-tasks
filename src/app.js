@@ -21,20 +21,20 @@ let array = [53, 71, 26, 13, 4, 7];
 // sortedArray = bubbleSort(array);
 // console.log({ array, sortedArray });
 
-// let isUniqueArray = [22, 75, 58, 22];
+let isUniqueArray = [22, 75, 58, 22];
 
-// let checkedArray = isUnique(isUniqueArray);
+let checkedArray = isUnique(isUniqueArray);
 
-// console.log(checkedArray);
+console.log(checkedArray);
 
-// isUniqueArray = [25, 13, 6, 14, 13, 65, 25, 71];
+isUniqueArray = [25, 13, 6, 14, 13, 65, 25, 71];
 
-// checkedArray = isUnique(isUniqueArray);
+checkedArray = isUnique(isUniqueArray);
 
-// console.log(checkedArray);
+console.log(checkedArray);
 
-// isUniqueArray = [53, 71, 26, 13, 4, 7];
+isUniqueArray = [53, 71, 26, 13, 4, 7];
 
-// checkedArray = isUnique(isUniqueArray);
+checkedArray = isUnique(isUniqueArray);
 
-// console.log(checkedArray);
+console.log(checkedArray);
