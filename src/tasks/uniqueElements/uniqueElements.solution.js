@@ -8,5 +8,5 @@ export default function isUnique(array) {
   // }
   // return true;
 
-  return new Set(array);
+  return new Set(array).size === array.length;
 }

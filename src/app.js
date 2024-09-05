@@ -1,3 +1,4 @@
+import { aclean, unique } from "./learnJS/Map and Set/mapAndSet.js";
 import bubbleSort from "./tasks/bubbleSort/bubbleSort.solution.js";
 import sum from "./tasks/sum/solution.js";
 import isUnique from "./tasks/uniqueElements/uniqueElements.solution.js";
@@ -38,3 +39,21 @@ let array = [53, 71, 26, 13, 4, 7];
 // checkedArray = isUnique(isUniqueArray);
 
 // console.log(checkedArray);
+
+let values = [
+  "Hare",
+  "Krishna",
+  "Hare",
+  "Krishna",
+  "Krishna",
+  "Krishna",
+  "Hare",
+  "Hare",
+  ":-O",
+];
+
+console.log(unique(values));
+
+let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+
+console.log(aclean(arr));

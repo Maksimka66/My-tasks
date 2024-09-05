@@ -1,21 +1,22 @@
 //task 1
 
-function unique(arr) {
-  const set = new Set();
+export function unique(arr) {
+  return Array.from(new Set(arr));
 }
 
-let values = [
-  "Hare",
-  "Krishna",
-  "Hare",
-  "Krishna",
-  "Krishna",
-  "Krishna",
-  "Hare",
-  "Hare",
-  ":-O",
-];
+// task 2
 
+export function aclean(arr) {
+  const map = new Map();
+
+  arr.forEach((element) => {
+    const sortedElement = element.toLowerCase().split("").sort().join("");
+
+    map.set(sortedElement, element);
+  });
+
+  return Array.from(map.values());
+}
 // task 3
 
 let map = new Map();
@@ -25,8 +26,4 @@ map.set("name", "John");
 let keys = Array.from(map.keys());
 // Нагадування: map.keys() повертає об'єкт, а не масив, тому для коректної роботи методу push() треба, щоб у keys був саме масив!
 
-console.log(map);
-
 keys.push("more");
-
-console.log(keys);
