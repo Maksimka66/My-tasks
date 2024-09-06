@@ -40,20 +40,20 @@ let array = [53, 71, 26, 13, 4, 7];
 
 // console.log(checkedArray);
 
-let values = [
-  "Hare",
-  "Krishna",
-  "Hare",
-  "Krishna",
-  "Krishna",
-  "Krishna",
-  "Hare",
-  "Hare",
-  ":-O",
-];
+// let values = [
+//   "Hare",
+//   "Krishna",
+//   "Hare",
+//   "Krishna",
+//   "Krishna",
+//   "Krishna",
+//   "Hare",
+//   "Hare",
+//   ":-O",
+// ];
 
-console.log(unique(values));
+// console.log(unique(values));
 
-let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+// let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
 
-console.log(aclean(arr));
+// console.log(aclean(arr));
