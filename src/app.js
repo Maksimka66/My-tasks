@@ -1,6 +1,5 @@
 import { aclean, unique } from "./learnJS/Map and Set/mapAndSet.js";
 import bubbleSort from "./tasks/bubbleSort/bubbleSort.solution.js";
-import sum from "./tasks/sum/solution.js";
 import isUnique from "./tasks/uniqueElements/uniqueElements.solution.js";
 
 // sum(5, 7);
